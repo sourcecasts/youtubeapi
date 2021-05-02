@@ -18,7 +18,7 @@ def main():
     	user_agent ='youtube-api-v3-awesomeness'
     )
 
-	token = 'C:/Users/Скрипт/Downloads/api/analytics.dat'
+	token = 'C:/Users/Скрипт/Downloads/api/analytics.dat' #создайте пустой файл в папке скрипта с именем analytics.dat
 
 	storage = Storage(token)
 	credentials = storage.get()
