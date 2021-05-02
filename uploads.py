@@ -45,7 +45,7 @@ def main():
   		credentials = tools.run_flow(flow, storage)
 
 	youtube = googleapiclient.discovery.build(api_service_name, api_version, credentials = credentials)
-	request = youtube.videos().insert(part='snippet,status', body = body, media_body = MediaFileUpload("C:/Users/Скрипт/Downloads/api/1.wmv"))
+	request = youtube.videos().insert(part='snippet,status', body = body, media_body = MediaFileUpload("video.mp4"))
 	response = request.execute()
 	if response:
     		print("Видео загружено")
