@@ -12,8 +12,8 @@ from googleapiclient.http import MediaFileUpload
 
 def main():
 	flow = OAuth2WebServerFlow(
-		client_id='509732323643-mb5ctlpgaee3rjgb9cpkl9ln9str01lf.apps.googleusercontent.com',
-    	client_secret='1tF2q781jKM27FKskH439CVO',
+		client_id='ваш id',
+    	client_secret='секретный ключ',
     	scope ='https://www.googleapis.com/auth/youtube.upload',
     	user_agent ='youtube-api-v3-awesomeness'
     )
